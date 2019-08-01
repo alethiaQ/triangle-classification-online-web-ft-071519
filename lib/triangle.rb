@@ -15,7 +15,7 @@ class Triangle
         raise TriangleError
       rescue TriangleError => error
       end
-
+    end
 
     if (@side_1 == @side_2 && @side_2 == @side_3)
       return :equilateral
